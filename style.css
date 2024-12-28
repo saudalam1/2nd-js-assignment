@@ -1,0 +1,32 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: lightslategray;
+}
+
+
+div{
+    height: 150px;
+    width: 550px;
+    background-color: lightblue;
+    margin-left: 380px;
+    text-align: center;
+    border-radius: 2%;
+    margin-top: 220px;
+    border: 2px solid lightcyan;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div:hover{
+    border: 2px solid lightcyan;
+    background-color: lightseagreen;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 100px lightgreen;
+}
+
